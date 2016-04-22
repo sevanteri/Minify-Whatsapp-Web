@@ -1,0 +1,35 @@
+@-moz-document domain("web.whatsapp.com") {
+    .app {
+        width: 100% !important;
+        top: 0 !important;
+        height: 100% !important;
+    }
+
+    #side {
+        width: 20% !important;
+    }
+    #main {
+        width: 80% !important;
+    }
+    
+    .msg {
+        padding: 0 1em 0 1em !important;;
+    }
+    .message {
+        max-width: 100% !important;
+    }
+    .message-author {
+        float: left !important;;
+        margin-right: 1em !important;
+    }
+    .message-text {
+        float: left !important;
+    }
+    .message-out {
+        float: left !important;
+    }
+    .message-meta {
+        clear: both !important;
+        display: block !important;
+    }
+}
