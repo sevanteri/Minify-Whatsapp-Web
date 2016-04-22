@@ -5,7 +5,7 @@
         top: 0 !important;
         height: 100% !important;
     }
-    
+
     /* sidebar */
     .infinite-list-viewport .infinite-list-item, .chatlist .chat {
         height: 50px !important;
@@ -36,6 +36,10 @@
 
     .tail.message-in::before, .tail.message-out::before {
         display: none;
+    }
+
+    .message-chat {
+        max-width: 100%;
     }
 
     .message-text, .document-body {
