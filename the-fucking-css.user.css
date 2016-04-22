@@ -1,35 +1,49 @@
 @-moz-document domain("web.whatsapp.com") {
-    .app {
-        width: 100% !important;
-        top: 0 !important;
-        height: 100% !important;
+    /* sidebar */
+    .infinite-list-viewport .infinite-list-item, .chatlist .chat {
+        height: 50px !important;
     }
 
     #side {
-        width: 20% !important;
+        width: 30%;
     }
+
     #main {
-        width: 80% !important;
+        width: 70%;
     }
-    
-    .msg {
-        padding: 0 1em 0 1em !important;;
+
+    .chatlist .avatar {
+        height: 32px;
+        width: 32px;
     }
-    .message {
-        max-width: 100% !important;
+
+    .chat-body .chat-main {
+
     }
-    .message-author {
-        float: left !important;;
-        margin-right: 1em !important;
+
+    .chat-body .chat-secondary {
+        display: none;
     }
-    .message-text {
-        float: left !important;
+
+    /* message area */
+
+    .tail.message-in::before, .tail.message-out::before {
+        display: none;
+    }
+
+    .message-text, .document-body {
+        font-size: 12px;
+        line-height: 10px;
     }
     .message-out {
-        float: left !important;
+        float: left;
     }
-    .message-meta {
-        clear: both !important;
-        display: block !important;
+
+    .context-out, .context-in {
+        height: 17px;
+    }
+
+    .context-icon {
+        height: 15px;
     }
 }
