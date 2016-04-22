@@ -1,4 +1,11 @@
 @-moz-document domain("web.whatsapp.com") {
+    /* the whole app */
+    .app {
+        width: 100% !important;
+        top: 0 !important;
+        height: 100% !important;
+    }
+    
     /* sidebar */
     .infinite-list-viewport .infinite-list-item, .chatlist .chat {
         height: 50px !important;
