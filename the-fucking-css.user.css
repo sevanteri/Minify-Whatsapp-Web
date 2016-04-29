@@ -7,7 +7,7 @@
     }
 
     /* sidebar */
-    .infinite-list-viewport .infinite-list-item, .chatlist .chat {
+    #pane-side .infinite-list-item, #pane-side .chatlist .chat {
         height: 50px !important;
     }
 
